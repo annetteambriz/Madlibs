@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: #008B8B;
+}
+
+div {
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    color: #A9A9A9;
+    text-align: center;
+    line-height: 30px;
+}
+
+h1 {
+    font-family: 'Rozha One', serif;
+    text-align: center;
+    color: rebeccapurple;
+
+}
+
+input {
+    border: 0;
+    background-color: #6B8E23;
+    color: magenta;
+}
+
+.box {
+    border: 2px;
+    border-style: dashed;
+}
