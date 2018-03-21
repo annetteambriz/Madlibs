@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/madlibs2.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Rozha+One|Shadows+Into+Light" rel="stylesheet">
+  <title>A Compliment</title>
+</head>
+<body>
+    <div>
+        <h1>Your madlib. Having fun yet?</h1>
+        <form action="/madlib">
+            Enter a person, a color, a noun, and an adjective below. <br> <br>
+            Person: <input type="text" name="person"> <br>
+            Color: <input type="text" name="color"><br>
+            Noun: <input type="text" name="noun"><br>
+            Adjective:
+            <select name="adjective">
+                <option value="hairy">hairy</option>
+                <option value="sweaty">sweaty</option>
+                <option value="smelly">smelly</option>
+            </select><br><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
